@@ -1,0 +1,35 @@
+
+.header-container {
+    background: white;
+    color: black;
+    font-size: 12px;
+    height: 4em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.search-input {
+    background: transparent;
+    border-width: 0px;
+    color: black;
+    width: 30em;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 2em ;
+    margin-right: 8em ;
+
+}
+.create-button {
+    background: transparent;
+    border-width: 0px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 2em ;
+}

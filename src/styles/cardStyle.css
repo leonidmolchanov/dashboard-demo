@@ -1,0 +1,55 @@
+.card-body {
+    background-color: #4e2;
+    width: 10em;
+    height: 10em;
+    display: flex;
+    border-radius: 2em;
+    border: #282c34;
+    margin: 2em;
+    border-width: 2px;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    justify-content: flex-start;
+}
+.card-close-button {
+    color: white;
+    align-self: flex-end;
+    margin-right: 1em ;
+    margin-top: 0.5em ;
+    text-decoration:none;
+}
+.card-title-input {
+    background: transparent;
+    border-width: 0px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    margin-top: -2em ;
+}
+
+.card-title-area {
+    /*background: transparent;*/
+    border-width: 0px;
+    color: black;
+    font-size: 10px;
+    resize: none;
+    width: 90%;
+    height: 30%;
+    opacity: 0.8;
+    text-align: left;
+    align-self: center;
+    margin-top: 2em ;
+}
+
+.card-avtor-label {
+    font-weight: bold;
+    color: black;
+    font-size: 10px;
+    align-self: center;
+    margin-top: 1em ;
+}
